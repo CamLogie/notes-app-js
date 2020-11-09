@@ -6,4 +6,10 @@ class Note {
 
   }
 
+  showText() {
+
+    return this.text
+
+  }
+
 }
