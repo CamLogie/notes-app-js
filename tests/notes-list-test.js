@@ -8,7 +8,7 @@
 
     if (noteList.list.length != 0) {
       return `Expected noteList.list to be an empty array`
-    } else { return 'NoteList creates an empty array upon initialization: WORKING'}
+    } else { return 'Expected noteList.list to be an empty array WORKING'}
   }
 
   function itAddNoteToList() {
