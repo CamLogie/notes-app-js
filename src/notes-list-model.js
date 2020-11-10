@@ -9,4 +9,9 @@ class NoteList {
     return this.list.push(note);
   }
 
+  all() {
+
+    return this.list;
+
+  }
 }

@@ -34,14 +34,13 @@
 
     noteList.add(note);
 
-
-    if (noteList.all == []) {
-      return `noteList.list doesnt have a test note`
+    if (noteList.all()[0].text != 'test') {
+      return `Expected ${noteList.all()[0].text} to contain ${note.text}`
     } else {
-      return "Expected noteList.list to have test note: WORKING "
+      return `Expected ${noteList.all()[0].text} to contain ${note.text}: WORKING`
     }
   }
-
+exports.itreturnsAllNotesFromList = itreturnsAllNotesFromList
 exports.noteListClassHasEmptyArrayUponIntitiation = noteListClassHasEmptyArrayUponIntitiation;
 exports.itAddNoteToList = itAddNoteToList;
 })(this);
