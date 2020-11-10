@@ -6,3 +6,4 @@ selectQueryToShowOnPage = (element, text) => {
 
 selectQueryToShowOnPage('#constructor_text', testNoteTakesInTextUponInitiation());
 selectQueryToShowOnPage('#showText', noteClassHasMethodThatReturnsTextFromNote());
+selectQueryToShowOnPage('#emptyArray', noteListClassHasEmptyArrayUponIntitiation())
