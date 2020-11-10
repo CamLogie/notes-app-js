@@ -15,5 +15,20 @@
     }
   }
 
+  function itReturnsHTMLString() {
+
+    var noteList = new NoteList()
+    noteList.add('test')
+
+    var noteListView = new NoteListView(noteList)
+
+    if (noteListView.returnHTMLString() != '<ul><li><div>test</div></li><li></ul>'){
+      return 'Expected string ${noteListView.returnHTMLString} equal <ul><li><div>test</div></li><li></ul>'
+    }else {
+      return 'Expected string ${noteListView.returnHTMLString} equal <ul><li><div>test</div></li><li></ul> WORKING'
+    }
+
+  }
+exports.itReturnsHTMLString = itReturnsHTMLString
 exports.itChecksIfANotesListCanBePassedWhenInitialized = itChecksIfANotesListCanBePassedWhenInitialized
 })(this);

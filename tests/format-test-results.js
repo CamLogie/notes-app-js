@@ -11,3 +11,4 @@ selectQueryToShowOnPage('#emptyArray', noteListClassHasEmptyArrayUponIntitiation
 selectQueryToShowOnPage('#notemptyArray', itAddNoteToList());
 selectQueryToShowOnPage('#containsTestNote', itreturnsAllNotesFromList());
 selectQueryToShowOnPage('#constructorListView', itChecksIfANotesListCanBePassedWhenInitialized());
+selectQueryToShowOnPage('#HTMLString',itReturnsHTMLString());
