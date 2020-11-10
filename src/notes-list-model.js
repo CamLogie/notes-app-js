@@ -6,7 +6,7 @@ class NoteList {
   }
 
   add(note) {
-    return this.list.push(note);
+    return this.list.push(new Note(note));
   }
 
   all() {

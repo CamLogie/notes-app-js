@@ -30,14 +30,12 @@
 
     var noteList = new NoteList();
 
-    var note = new Note("test")
-
-    noteList.add(note);
+    noteList.add('test');
 
     if (noteList.all()[0].text != 'test') {
-      return `Expected ${noteList.all()[0].text} to contain ${note.text}`
+      return `Expected ${noteList.all()[0].text} to contain 'test'`
     } else {
-      return `Expected ${noteList.all()[0].text} to contain ${note.text}: WORKING`
+      return `Expected ${noteList.all()[0].text} to contain 'test': WORKING`
     }
   }
 exports.itreturnsAllNotesFromList = itreturnsAllNotesFromList
