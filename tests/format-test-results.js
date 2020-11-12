@@ -1,4 +1,3 @@
-
 selectQueryToShowOnPage = (element, text) => {
 
   document.querySelector(element).textContent = text;
@@ -12,3 +11,4 @@ selectQueryToShowOnPage('#notemptyArray', itAddNoteToList());
 selectQueryToShowOnPage('#containsTestNote', itreturnsAllNotesFromList());
 selectQueryToShowOnPage('#constructorListView', itChecksIfANotesListCanBePassedWhenInitialized());
 selectQueryToShowOnPage('#HTMLString',itReturnsHTMLString());
+selectQueryToShowOnPage('#innerHTML', noteControllerInnerHTML());
