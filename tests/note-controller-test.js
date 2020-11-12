@@ -13,4 +13,4 @@
   }
 
   exports.noteControllerInnerHTML = noteControllerInnerHTML;
-})
+})(this);
