@@ -5,9 +5,9 @@ class NoteListView {
 
   returnHTMLString() {
     var openTag = "<ul>"
-    var closingTag ="</ul>"
+    var closingTag = "</ul>"
 
-    var body =  this.noteList
+    var body = this.noteList
       .all()
       .map(text => "<li><div>" + text.showText() + "</div></li>")
       .join("")
