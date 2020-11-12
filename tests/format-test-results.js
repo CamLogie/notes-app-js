@@ -1,6 +1,6 @@
 selectQueryToShowOnPage = (element, text) => {
 
-  document.querySelector(element).textContent = text;
+    document.querySelector(element).textContent = text;
 
 };
 
@@ -10,5 +10,7 @@ selectQueryToShowOnPage('#emptyArray', noteListClassHasEmptyArrayUponIntitiation
 selectQueryToShowOnPage('#notemptyArray', itAddNoteToList());
 selectQueryToShowOnPage('#containsTestNote', itreturnsAllNotesFromList());
 selectQueryToShowOnPage('#constructorListView', itChecksIfANotesListCanBePassedWhenInitialized());
-selectQueryToShowOnPage('#HTMLString',itReturnsHTMLString());
+selectQueryToShowOnPage('#HTMLString', itReturnsHTMLString());
 selectQueryToShowOnPage('#innerHTML', noteControllerInnerHTML());
+selectQueryToShowOnPage('#singleNoteView', itChecksIfANoteCanBePassedWhenInitialized());
+selectQueryToShowOnPage('#singleNoteViewshowfullnote', itReturnsTheFullTextOfNote());
