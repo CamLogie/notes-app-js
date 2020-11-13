@@ -23,7 +23,7 @@ function print(arg) {
 
   }
 
-  insertTestHTMLString(createTestHTMLString(testsToRun));
+  
 
 
 
