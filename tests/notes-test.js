@@ -23,3 +23,6 @@
   }
   exports.noteClassHasMethodThatReturnsTextFromNote = noteClassHasMethodThatReturnsTextFromNote;
 })(this);
+
+testsToRun.push(testNoteTakesInTextUponInitiation());
+testsToRun.push(noteClassHasMethodThatReturnsTextFromNote());

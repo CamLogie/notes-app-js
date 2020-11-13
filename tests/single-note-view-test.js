@@ -27,3 +27,6 @@
     exports.itChecksIfANoteCanBePassedWhenInitialized = itChecksIfANoteCanBePassedWhenInitialized
     exports.itReturnsTheFullTextOfNote = itReturnsTheFullTextOfNote
 })(this);
+
+testsToRun.push(itChecksIfANoteCanBePassedWhenInitialized());
+testsToRun.push(itReturnsTheFullTextOfNote());

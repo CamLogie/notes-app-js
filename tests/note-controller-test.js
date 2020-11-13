@@ -14,3 +14,5 @@
 
   exports.noteControllerInnerHTML = noteControllerInnerHTML;
 })(this);
+
+testsToRun.push(noteControllerInnerHTML())

@@ -33,3 +33,7 @@
 exports.itReturnsHTMLString = itReturnsHTMLString
 exports.itChecksIfANotesListCanBePassedWhenInitialized = itChecksIfANotesListCanBePassedWhenInitialized
 })(this);
+
+
+testsToRun.push(itChecksIfANotesListCanBePassedWhenInitialized());
+testsToRun.push(itReturnsHTMLString());

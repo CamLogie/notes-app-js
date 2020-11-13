@@ -42,3 +42,7 @@ exports.itreturnsAllNotesFromList = itreturnsAllNotesFromList
 exports.noteListClassHasEmptyArrayUponIntitiation = noteListClassHasEmptyArrayUponIntitiation;
 exports.itAddNoteToList = itAddNoteToList;
 })(this);
+
+testsToRun.push(noteListClassHasEmptyArrayUponIntitiation());
+testsToRun.push(itAddNoteToList());
+testsToRun.push(itreturnsAllNotesFromList());
